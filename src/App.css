@@ -1,0 +1,78 @@
+.App {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family:"digital-7";
+  src: url("./font/digital-7/digital-7.ttf") /* TTF file for CSS3 browsers */
+}
+.App-device {
+  max-width: 245px;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  background: #003333;
+}
+.keypad-row {
+  width: 100%;
+}
+.col {
+  display: inline-block;
+  vertical-align: middle;
+  /*background: #ccc;*/
+  padding: 5px;
+  /*margin: 5px 0.5%;*/
+}
+input{
+  text-align: right;
+  font-size: 30px;
+  font-family:'digital-7';
+  color: black;
+  padding: 5px;
+  height: 40px;
+  width: 215px;
+  margin: 8px;
+  background-color: #ffffb3;
+  border-bottom-color: #b3b3b3;
+  border-radius: 6px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: #b3b3b3;
+  border-left-style: solid;
+  border-left-width: 1px;
+  border-right-color: #b3b3b3;
+  border-right-style: solid;
+  border-right-width: 1px;
+  border-top-color: #b3b3b3;
+  border-top-style: solid;
+  border-top-width: 1px;
+}
+button{
+  border-radius: 25%;
+  border: 2px solid #4d4d4d; /* Gray */
+  width: 50px;
+  height: 50px;
+  background: #bfbfbf;
+  color: black;
+}
+.h1{
+  text-align: center;
+}
+#op_equ{
+  border: 2px solid #4CAF50; /* Green */
+}
+#op_arithmatic{
+  border: 2px solid #990000; /* Dark Red */
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
